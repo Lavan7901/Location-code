@@ -1,0 +1,40 @@
+.App{
+    font-family: "inherit";
+    font-size: 18px;
+}
+.map{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.field-item{
+    margin-bottom: 50px;
+}
+.map input{
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.map button{
+    border: 1px solid #b80b70;
+    background-color: #df158a;
+    padding: 10px;
+    color: white;
+    border-radius: 20px ;
+}
+@media (max-width: 600px){
+    .field-item{
+        display: flex;
+        flex-direction: column;
+    }
+    .map input{
+        margin-bottom: 20px;
+    }
+    .map button{
+        width: 90%;
+    }
+}
